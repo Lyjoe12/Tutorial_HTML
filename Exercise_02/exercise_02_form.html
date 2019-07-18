@@ -5,60 +5,38 @@
     </head>
     <body>
         <h1>H2 Computing Sign up Form</h1>
-        Please enter your particulars below.
-        <br />
+        <p>Please enter your particulars below.</p>
+
         <form method="GET" action="exercise_02_response.html">
-            <p>
-                <label for="first name">First Name:</label>
-                
-                <input
-                    id="first name"
-                    type="text"
-                    placeholder="First Name"
-                />
-                <label for="last name">Last Name:</label>
-                <input
-                    id="last name"
-                    type="text"
-                    placeholder="Last Name"
-                />
-            </p>
-            <p>
-                <label for="email">Email:</label>
-                <input
-                    id="email"
-                    type="text"
-                    placeholder="name@email.com"
-                />
-                <label for="contact">Contact:</label>
-                <input
-                    id="contact"
-                    type="text"
-                    value=""
-                />
-            </p>
-            <p>
-                    <label for="class">Class:</label>
-                    <input
-                        id="class"
-                        type="text"
-                        value=""
-                    />
-                    <label for="gender">Gender</label>
-                    <select>
-                        <option>Male</option>
-                        <option>Female</option>
-                    </select>
-            </p>
-            <p>
-                <label for="dob">Date of Birth:</label>
-                <input
-                    id="dob"
-                    type="date"
-                    value="2000-01-01"
-                />
-            </p>
-            <br />
+            <table>
+                <tr>
+                    <td><label for="first name">First Name:</label></td>
+                    <td><input id="first name" type="text" placeholder="First Name"/></td>
+                    <td><label for="last name">Last Name:</label></td>
+                    <td><input id="last name" type="text" placeholder="Last Name" /></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input id="email" type="text" placeholder="name@email.com"/></td>
+                    <td><label for="contact">Contact:</label></td>
+                    <td><input id="contact" type="text" value=""/></td>
+                </tr>
+                <tr>
+                    <td><label for="class">Class:</label></td>
+                    <td><input id="class" type="text" value=""/></td>
+                    <td><label for="gender">Gender</label></td>
+                    <td>
+                        <select>
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="dob">Date of Birth:</label></td>
+                    <td><input id="dob" type="date" value="2000-01-01"/></td>
+                </tr>
+            </table>
             <p>
                 Subject Combination <br />
                 <input type="radio" name="subj" id="subj1" />
