@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>H2 Computing Sign up Form</title>
+    </head>
+    <body>
+        <h1>H2 Computing Sign up Form</h1>
+        Please enter your particulars below.
+        <br />
+        <form method="GET" action="exercise_02_response.html">
+            <p>
+                <label for="first name">First Name:</label>
+                
+                <input
+                    id="first name"
+                    type="text"
+                    placeholder="First Name"
+                />
+                <label for="last name">Last Name:</label>
+                <input
+                    id="last name"
+                    type="text"
+                    placeholder="Last Name"
+                />
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input
+                    id="email"
+                    type="text"
+                    placeholder="name@email.com"
+                />
+                <label for="contact">Contact:</label>
+                <input
+                    id="contact"
+                    type="text"
+                    value=""
+                />
+            </p>
+            <p>
+                    <label for="class">Class:</label>
+                    <input
+                        id="class"
+                        type="text"
+                        value=""
+                    />
+                    <label for="gender">Gender</label>
+                    <select>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+            </p>
+            <p>
+                <label for="dob">Date of Birth:</label>
+                <input
+                    id="dob"
+                    type="date"
+                    value="2000-01-01"
+                />
+            </p>
+            <br />
+            <p>
+                Subject Combination <br />
+                <input type="radio" name="subj" id="subj1" />
+                <label for="subj1">P CP M E</label> <br />
+                <input type="radio" name="subj" id="subj2" />
+                <label for="subj2">C CP M E</label> <br />
+                <input type="radio" name="subj" id="other" />
+                <label for="other">Other:</label>
+                <input id="other" type="text" value="" />
+            </p>
+            <input type="submit" />
+        </form>
+    </body>
+</html>
