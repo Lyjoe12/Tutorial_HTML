@@ -8,8 +8,8 @@ h1 {
     color:wheat;
     text-align: center;
     border: 5px solid wheat;
-    padding: 25px 10px 25px 10px;
-    margin: 25px;
+    padding: 15px 10px 15px 10px;
+    margin: 30px;
 }
 
 h2 {
@@ -21,9 +21,5 @@ h3 {
 }
 
 h4 {
-    color:wheat;
-}
-
-#link{
     color:wheat;
 }
