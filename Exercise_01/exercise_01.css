@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    color: turquoise;
+}
+
+h1 {
+    background-color: red;
+    color:wheat;
+    text-align: center;
+    border: 5px solid wheat;
+    padding: 25px 10px 25px 10px;
+    margin: 25px;
+}
+
+h2 {
+    color:wheat;
+}
+
+h3 {
+    color:wheat;
+}
+
+h4 {
+    color:wheat;
+}
+
+#link{
+    color:wheat;
+}
